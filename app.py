@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 st.set_page_config(page_title="WeatherBot")
-st.title("WeatherBot - Get Real-Time Weather Info")
+st.title("WeatherBot - Real-Time Weather Info")
 
 city = st.text_input("Enter a city name:")
 
